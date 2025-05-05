@@ -1,8 +1,10 @@
+# latihan list, tuple dan dictionary
+
 # Latihan List
 data_mahasiswa = []
 jumlah = int(input("Input jumlah mahasiswa: "))
 
-# perulangan untuk memasukkan nama mahasisqa
+# perulangan untuk memasukkan nama mahasiswa
 for i in range(jumlah):
     print(f"\nMahasiswa ke-{i+1}:")
     nama = input("Nama: ")
@@ -75,4 +77,5 @@ else:
 print("\nDaftar Seluruh Mahasiswa:")
 for nim, info in data_mahasiswa.items():
     print(f"NIM: {nim} → {info['nama']} ({info['jurusan']})")
+
 
